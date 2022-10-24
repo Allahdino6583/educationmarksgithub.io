@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    
+    padding: 30px;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    text-align: center;
+}
+.container .box h2{
+    font-size: 20px;
+    margin-right: 0px;
+    padding: 10px;
+    align-items: center;
+    color: rgb(228, 186, 21);
+    box-shadow: 2px 1px 2px 0px rgb(130, 130, 193);
+    font-weight: 16px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+}
+.box{
+   
+    width: 100%;
+    padding: 10px 0;
+    max-width: 37%;
+    margin: 10px 0;
+    margin-left: 360px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(10, 23, 33);
+    
+}
+ .book1 .book2 .book3 .book3 .book4 .book5 label ,input{
+    padding: 7px;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 15;
+    flex-basis: 20%;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+button{
+    border-radius: 12px;
+    margin-top: 8px;
+    padding: 5px;
+    color: white;
+    background: yellowgreen;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-left: 0px;
+
+}
+button:hover{
+    background-color: blue;
+    color: gray;
+}
+.book1 .book2 .book3 .book3 .book4 .book5 , label{
+    text-align: center;
+    margin-left: 0px;
+    color: white;
+    font-size: 1em;
+    font-style: italic;
+}
+.tab{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+}
+.tab table{
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
